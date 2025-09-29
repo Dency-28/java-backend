@@ -47,7 +47,9 @@
             <version>28.2-android</version>
         </dependency>
 
-                   <groupId>org.springframework.boot</groupId>
+        <!-- Spring Boot Test Starter -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
@@ -76,8 +78,7 @@
                 </configuration>
                 <executions>
                     <execution>
-                        <goals>
-                            <goal>repackage</goal>
+                        <go                            <goal>repackage</goal>
                         </goals>
                     </execution>
                 </executions>
