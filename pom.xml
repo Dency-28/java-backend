@@ -47,7 +47,7 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
-                </configuration>
+               configuration>
             </plugin>
 
             <!-- JAR plugin to add Main-Class -->
@@ -74,7 +74,8 @@
                         <goals>
                             <goal>repackage</goal>
                         </goals>
-                    </execution                </executions>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
