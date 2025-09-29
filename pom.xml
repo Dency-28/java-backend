@@ -16,6 +16,13 @@
 
     <build>
         <plugins>
+            <!-- Clean plugin (downgraded to avoid HTTPS error) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.1.0</version>
+            </plugin>
+
             <!-- Compiler plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
