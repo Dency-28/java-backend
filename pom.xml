@@ -10,6 +10,14 @@
 
     <name>Java Backend Project</name>
 
+    <properties>
+        <java.version>17</java.version>
+    </properties>
+
+    <dependencies>
+        <!-- Add your dependencies here -->
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -20,6 +28,10 @@
                     <source>17</source>
                     <target>17</target>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
