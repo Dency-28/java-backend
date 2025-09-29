@@ -20,6 +20,7 @@
 
     <build>
         <plugins>
+            <!-- Compiler plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -30,11 +31,13 @@
                 </configuration>
             </plugin>
 
+            Spring Boot plugin with repackage goal -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>3.1.0</version>
-                                   <execution>
+                <executions>
+                    <execution>
                         <goals>
                             <goal>repackage</goal>
                         </goals>
