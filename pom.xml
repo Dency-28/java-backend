@@ -15,6 +15,18 @@
         <spring.boot.version>3.1.0</spring.boot.version>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
         <!-- Spring Boot Starter -->
         <dependency>
@@ -22,22 +34,20 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
-        <!-- Optional: Spring Boot Web Starter -->
+        <!-- Spring Boot Web Starter -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Guava (as mentioned in your logs) -->
+        <!-- Guava -->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>28.2-android</version>
         </dependency>
 
-        <!-- Optional: Spring Boot Test Starter -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
+                   <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
