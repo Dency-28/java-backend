@@ -1,9 +1,10 @@
 # Java Backend
 
-This repository contains the backend services built using Java (Spring Boot). It handles business logic, API endpoints, and database interactions.
+This is a Spring Boot-based backend service that powers the core business logic and API layer of the application. It is designed to be containerized using Docker and integrated into a CI/CD pipeline for automated builds and deployments.
 
 ## Features
-- RESTful APIs
-- Spring Boot framework
-- PostgreSQL integration
-- Unit and integration testing
+- RESTful API endpoints using Spring Boot
+- PostgreSQL database integration
+- Dockerized for container-based deployment
+- GitHub Actions for CI/CD automation
+- Unit and integration testing with Maven
