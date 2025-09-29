@@ -34,7 +34,8 @@
                 <version>3.2.0</version>
                 <configuration>
                     <archive>
-                        <                            <mainClass>com.example.Application</mainClass>
+                        <manifest>
+                            <mainClass>com.example.Application</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
