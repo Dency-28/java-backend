@@ -31,7 +31,7 @@
                 </configuration>
             </plugin>
 
-            Spring Boot plugin with repackage goal -->
+            <!-- Spring Boot plugin with repackage goal -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
